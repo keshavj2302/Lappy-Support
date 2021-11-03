@@ -279,6 +279,40 @@ header{
     display: none;
 }
 
+
+#like_and_follow{
+    display: flex;
+    margin-top: 40px;
+}
+
+
+#like_and_follow>div{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#like_and_follow>div>h1, #like_and_follow>div>p{
+    margin-top: 10px;
+    width:100%;
+    text-align: center;
+}
+
+.button_style{
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: lawngreen;
+}
+
+.button_style:hover{
+    color:white;
+    background-color:tomato;
+}
+
+
+
+
+
 #testimonials{
     margin-top: 40px;
     text-align: center;
