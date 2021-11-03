@@ -1,0 +1,447 @@
+body{
+    margin: 0;
+    padding: 0;
+    height:100%;
+    color:white;
+    background-image: linear-gradient(to bottom right, #010f1a, #031037);
+    /* border: 2px solid white; */
+}
+
+
+header{
+    height: 70px;
+    position:relative;
+    /* border: 2px solid white; */
+}
+
+#header_section{
+    height: 70px;
+    display: flex;
+    padding:4px;
+    align-items: center;
+    justify-content:space-between;
+    background-image: linear-gradient(to bottom right, #0b90a0, #053472);
+}
+
+#search{
+    display:none;
+}
+
+#user{
+    display:none;
+}
+
+#notification{
+    display:none;
+}
+
+#chat{
+    display: none;
+}
+
+#header_section a{
+    height:100%;
+    color:white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid white; */
+}
+
+#header_section img{
+    height: 100%;
+    width:100%;
+}
+
+#header_section a i{
+    color: white;
+}
+
+#header_section a i:hover{
+    color: red;
+}
+
+#toggle_option{
+    display: flex;
+    
+    justify-content: center;
+    /* border: 2px solid white; */
+    width: 100%;
+}
+
+#option{
+    display: none;
+    list-style-type: none;
+    position:absolute;
+    right:0;
+    width:100%;
+}
+
+#option a{
+    color:white;
+    text-decoration: none;
+}
+
+#option>li{
+    background-color: #511cd2;
+    text-align: center;
+}
+
+#option>li:hover{
+    background-color: #0b4576;
+}
+
+
+#option:target{
+    display: block;
+}
+
+
+
+
+#carousal{
+    margin-top: 100px;
+    position: relative;
+    height:450px;
+    width:100%;
+}
+
+#carousal>div{
+    height:370px;
+    width:100%;
+}
+
+#carousal>div>img{
+    height:100%;
+    width:100%;
+}
+
+.carousal_item{
+    display: none;
+}
+
+.carousal_item_visible{
+    display: block;
+    animation: effect 1s ease-in-out;
+}
+
+@keyframes effect {
+    0%{
+        opacity:0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+#controls{
+    margin-top: 30px;
+    /* height:70px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+#controls>button{
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: lawngreen;
+}
+
+#controls>button:hover{
+    background-color: tomato;
+    color:white;
+}
+
+
+#mode_and_call_back{
+    height:auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+#mode_and_call_back>button{
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: lawngreen;
+}
+
+#mode_and_call_back>button:hover{
+    color:whitesmoke;
+    background-color: tomato;
+    box-shadow: 0px 0px 6px 2px whitesmoke;
+}
+
+
+
+#lappy_suport_offers{
+    color:white;
+    margin-top: 30px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #0b90a0, #053472);
+}
+
+#lappy_suport_offers_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#lappy_suport_offers_container>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:200px;
+    width: 100%;
+    /* border:2px solid white; */
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.responsive_offer>div{
+    border-radius: 10px;
+    overflow: hidden;
+    height:70%;
+    width: 30%;
+}
+
+.responsive_offer>div:hover{
+    box-shadow: 0px 0px 6px 2px whitesmoke;
+}
+
+.responsive_offer img{
+    height:100%;
+    width:100%;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.responsive_offer img:hover{
+    transform: scale(1.4);
+}
+
+.responsive_offer>p{
+    height:70%;
+    width:50%;
+    font-weight: 500;
+    padding-top: 20px;
+    /* border: 2px solid white; */
+}
+
+
+
+.form_filling{
+    margin-top: 40px;
+    padding:6px;
+    /* border: 2px solid white; */
+}
+
+.form_filling>h2{
+    text-align: center;
+}
+
+.form_filling>form{
+    margin-top: 40px;
+}
+
+.form_filling>form>div{
+    margin-top: 15px;
+}
+
+.form_filling>form>input{
+    width: 70%;
+}
+
+.form_filling>form textarea{
+    width: 70%;
+}
+
+.form_filling>form label{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+#submit{
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: lawngreen;
+}
+
+#submit:hover{
+    color:white;
+    background-color:tomato;
+}
+
+#form_filled{
+    margin-top:30px;
+    display: none;
+}
+
+#testimonials{
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+#map div{
+    margin-top: 40px;
+	width: 100%;
+	border: 2px solid black;
+	height: 300px;
+	display: flex;
+	/*position: relative;*/
+}
+
+#footer{
+    margin-top: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom right, #0b90a0, #053472);
+}
+
+#footer>div{
+    text-align: center;
+    height:230px;
+    width:100%;
+}
+
+#footer>div>h2{
+    text-align: center;
+}
+
+#footer>div>h2:hover{
+    box-shadow: 0px 0px 12px 1px white;
+}
+
+
+
+
+#footer>div>ol{
+    list-style: none;
+}
+
+
+#footer>div{
+    font-weight: 500;
+    color:white;
+}
+
+
+#footer>div>ol>li:hover{
+    color:lawngreen;
+}
+
+#footer>div>div>a{
+    color:white;
+    text-decoration: none;
+}
+
+#footer>div>div>a:hover{
+    color:lawngreen;
+}
+
+
+
+
+/* For devices larger than 400px  */
+
+@media screen and (min-width: 400px) {
+
+
+#search{
+    display:block;
+    padding-top: 15px;
+    /* border:2px solid white; */
+}
+
+#inner_search{
+    border:2px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#inner_search input{
+    outline: none;
+    border:none;
+}
+
+#inner_search i{
+    color:rgb(4, 33, 87);
+}
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+/* For devices larger than 800px */
+
+
+@media screen and (min-width: 800px) {
+
+#user{
+    display: block;
+}
+
+#notification{
+    display:block;
+}
+
+#chat{
+    display: block;
+}
+
+#chat:hover, #notification:hover, #user:hover{
+    color:greenyellow;
+    cursor: pointer;
+}
+
+
+#lappy_suport_offers_container>div{
+    max-height:200px;
+    width: 50%;
+    border:2px solid white;
+}
+
+
+#footer>div{
+    text-align: center;
+    height:230px;
+    width:33.33%;
+}
+
+#footer>div>ol{
+    list-style: none;
+}
+
+
+#footer>div>ol>li:hover{
+    color:lawngreen;
+}
+
+#footer>div>div>a{
+    color:white;
+    text-decoration: none;
+}
+
+#footer>div>div>a:hover{
+    color:lawngreen;
+}
+
+
+
+    
+}
