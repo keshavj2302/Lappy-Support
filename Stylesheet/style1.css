@@ -377,6 +377,71 @@ header{
 }
 
 
+/* Icons for call and messages */
+
+#call{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: rgb(0 168 255);
+    z-index: 10;
+}
+
+#message{
+    position: fixed;
+    bottom: 65px;
+    right: 10px;
+    color: rgb(5 255 40);
+    z-index: 10;
+}
+
+/* Our Services */
+
+#services_heading{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* main container box of services */
+
+#all_services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    /* height:50px; */
+    background-image: linear-gradient(to bottom right, #1076c4, #052f72);
+}
+
+/* Each individual block of services */
+
+#all_services>div{
+    width: 90%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    background-image: linear-gradient(to bottom right, #7910c4, #052f72);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#all_services>div:hover{
+    box-shadow: 0px 0px 20px 1px white;
+}
+
+.services>img{
+    height:50%;
+    width: 100%;
+}
+
+.services>p, .services.h4{
+    width: 90%;
+    text-align: center;
+}
+
 
 
 /* For devices larger than 400px  */
@@ -406,6 +471,25 @@ header{
 }
 
 
+
+
+
+
+/* Our Services */
+/* for size of viewport b/w 400 to 800px */
+/* there will be 2 blocks */
+
+#all_services>div{
+    width: 45%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    background-image: linear-gradient(to bottom right, #7910c4, #052f72);
+    margin-top: 20px;
+}
 
 
 
@@ -474,6 +558,25 @@ header{
 #footer>div>div>a:hover{
     color:lawngreen;
 }
+
+
+
+/* Our Services */
+/* for size of viewport b/w 400 to 800px */
+/* there will be 2 blocks */
+
+#all_services>div{
+    width: 30%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid white; */
+    background-image: linear-gradient(to bottom right, #7910c4, #052f72);
+    margin-top: 20px;
+}
+
 
 
 

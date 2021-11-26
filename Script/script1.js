@@ -39,7 +39,7 @@ submit.addEventListener('click', hide);
 
 // Carousal
 var curr = 0;
-function update(){
+function update(curr){
     carousal[curr].classList.add('carousal_item_visible');
 }
 
